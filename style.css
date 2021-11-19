@@ -1,27 +1,34 @@
 main{
+  background-color: hsla(245, 75%, 52%, 0.06);
+  
   background-image: url(https://raw.githubusercontent.com/Auto-Yahwin/images/main/pattern-background-mobile.svg);
   background-repeat:no-repeat;
   background-size:contain;
   display: flex;
   align-items:center;
   justify-content:center;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 
-#div1{
-   border-radius: 25px 25px 0px 0px;
-   height: 200px;
-   width: 375px;
+#container{
+  
 }
 
+/*#div1{
+   border-radius: 25px 25px 0px 0px;
+   height: 200px;
+   width: 5px;
+   background-color:;
+}*/
+
 #div2{
-  background-color: hsl(225, 100%, 98%);
+  background-color: white;
   border-radius: 0px 0px 25px 25px;
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 375px;
   text-align: center;
-  margin-top: 45px;
+  margin-top: -30px;
   padding-top: 20px;
   display: grid;
   justify-content: center;
@@ -39,13 +46,12 @@ main{
 .class4{
   background-color: hsl(224, 75%, 52%);
   color: white;
-  border-radius: 25px;
-  height: 40px;
-  width: 400px;
-  padding-top: 25px;
-  padding-bottom: 5px;
+  height: 20px;
+  width: 280px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   margin-top: 5px;
-  margin-left: -60px;
+  margin-left: 10px;
   margin-bottom: 75px;
   box-shadow: 0 10px 35px -13px hsl(245, 75%, 52%);
 } 
@@ -93,7 +99,7 @@ a.class4{
   color: rgba(225, 225, 225, 1);
   text-decoration: none;
   text-transform: none;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 a.class5{
@@ -104,8 +110,8 @@ a.class5{
 }
 
 #imgs{
-  border-radius: 25px 25px 0px 0px;
-  width: 500px;
+  border-radius: 20px 20px 0px 0px;
+  width: 375px;
 }
 
 h1{
@@ -145,13 +151,16 @@ a.class5:active{
   color: hsl(228, 45%, 44%);
   }
 
-@media screen and(min-width:1200px){
+@media screen and (min-width:1200px){
   main{
-    font-size:16px;
+    font-size:160px;
     font-weight:900px;
     background-image:url(https://raw.githubusercontent.com/Auto-Yahwin/images/main/pattern-background-desktop.svg);
+    width:100vw;
+    height:100vh;
   }
   
-  div1{
-    width:1440px;
+  #div2{
+    height: 1440px;
+  }
 }
